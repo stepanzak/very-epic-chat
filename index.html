@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>very gut chat</title>
+    <style>
+            div#chat {
+                margin:4px, 4px;
+                padding:4px;
+                background-color: green;
+                width: 500px;
+                height: 110px;
+                overflow-x: hidden;
+                overflow-y: auto;
+                text-align:justify;
+            }
+    </style>
+</head>
+<body>
+    <h1>The best chat app on the entire internet</h1>
+    <div id="chat" style="height: 400px">
+        <p>Welcome in my epic chat app</p>
+    </div>
+    <form id="chat-input" onSubmit="return false;">
+        <input type="text" id="chat-input-text" placeholder="Type here...">
+        <button id="chat-input-button">Send</button>
+    </form>
+    <script src="/frontend.js"></script>
+</body>
+</html>
