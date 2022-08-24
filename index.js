@@ -5,7 +5,6 @@ app.use(express.json());
 let jumpscare = false
 
 app.get(/^\/$/, (req, res) => {
-    console.log(__dirname)
     res.sendFile(__dirname + '/index.html')
 })
 
